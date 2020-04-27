@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Play Hangman</title>
+	<link rel="stylesheet" type="text/css" href="galgje.css">
+	<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+</head>
+<body>
+	<h1 id="title">Hangman</h1>
+	<form id="gameControls">
+		<label for="wordInput">Type a word</label>
+		<input id="wordInput" name="" type="password" placeholder="" required minlength="2" maxlength="20" autocomplete="off" >	
+		<div id="startRestart">
+			<button id="wordGenerator" type="button" class="startRestartButton">Generate a word</button>
+			<button id="startButton" type="button" class="startRestartButton">Start</button>
+			<button id="restartButton" type="reset" class="startRestartButton">Restart</button>
+
+		</div>
+	</form>
+
+	<!-- Placeholder for hangman -->
+	<div>
+		<div id="lifesLeft">
+			<span id="lifeCounter">10</span> lifes left
+		</div>
+	</div>
+
+	<div id="theWord">
+		
+	</div> 
+	<div id="keyboard">
+		<button class="letter" type="button" disabled >a</button>
+		<button class="letter" type="button" disabled >b</button>
+		<button class="letter" type="button" disabled >c</button>
+		<button class="letter" type="button" disabled >d</button>
+		<button class="letter" type="button" disabled >e</button>
+		<button class="letter" type="button" disabled >f</button>
+		<button class="letter" type="button" disabled >g</button>
+		<button class="letter" type="button" disabled >h</button>
+		<button class="letter" type="button" disabled >i</button>
+		<button class="letter" type="button" disabled >j</button>
+		<button class="letter" type="button" disabled >k</button>
+		<button class="letter" type="button" disabled >l</button>
+		<button class="letter" type="button" disabled >m</button>
+		<button class="letter" type="button" disabled >n</button>
+		<button class="letter" type="button" disabled >o</button>
+		<button class="letter" type="button" disabled >p</button>
+		<button class="letter" type="button" disabled >q</button>
+		<button class="letter" type="button" disabled >r</button>
+		<button class="letter" type="button" disabled >s</button>
+		<button class="letter" type="button" disabled >t</button>
+		<button class="letter" type="button" disabled >u</button>
+		<button class="letter" type="button" disabled >v</button>
+		<button class="letter" type="button" disabled >w</button>
+		<button class="letter" type="button" disabled >x</button>
+		<button class="letter" type="button" disabled >y</button>
+		<button class="letter" type="button" disabled >z</button>
+	</div>
+
+	<script type="text/javascript" src="galgje.js"></script>
+</body>
+</html>

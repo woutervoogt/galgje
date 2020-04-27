@@ -1,0 +1,65 @@
+body {
+	background: #0F0F0F;
+	color: #FFFFFF;
+	font-family: Courier New, serif;
+
+}
+
+#title {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 4rem;
+}
+
+#gameControls{
+	margin: 0 auto;
+	width: 50%;
+	text-align: center;
+}
+
+#wordGenerator{
+	display: block;
+	margin: 0 auto;
+	width: 150px;
+}
+#lifesLeft{
+	font-size: 2em;
+	padding: 20px;
+}
+
+#lettersGuessed{
+	font-size: 2em;
+	padding: 20px;
+}
+
+#lifeCounter {
+	border: 2px solid white;
+	color: green ;
+	padding: 5px;
+}
+
+#letterCounter {
+	border: 2px solid white;
+	color: blue;
+	padding: 5px;
+}
+
+#keyboard {
+	margin: 20px;
+}
+.letter {
+	text-align: center;
+	text-transform: uppercase;
+	width: 50px;
+	height: 50px;
+	margin: 2px;
+	color: #FFFFFF;
+	background-color: #5e5e5e;
+	font-family: Courier New, serif;
+	font-size: 2em;
+}
+
+#theWord {
+	text-align: center;
+	height: 50px;
+}
